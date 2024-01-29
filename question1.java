@@ -75,7 +75,7 @@ public class question1 {
         studentIterator= studentList.iterator();
         while (studentIterator.hasNext()){
             Student student=studentIterator.next();
-            if (student.cgpa>8.5){
+            if (student.getCgpa()>8.5){
                 System.out.println(student  );
             }
         }
@@ -84,7 +84,7 @@ public class question1 {
         studentIterator=studentList.iterator();
         while (studentIterator.hasNext()){
             Student student=studentIterator.next();
-            if (student.dept.equalsIgnoreCase("ISE")){
+            if (student.getDept().equalsIgnoreCase("ISE")){
                 System.out.println(student);
             }
         }
